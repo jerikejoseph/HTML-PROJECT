@@ -41,3 +41,100 @@ a:hover{
     background-color: white;color: black;
     border-radius: 50%;
 }
+.parent{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+}
+.head1{
+  padding-top: 200px;
+  padding-left: 280px;
+  padding-right: 300px;
+}
+p{
+    margin: 1%;
+    padding-top: 18px;
+    padding-left: 272px;
+    padding-right: 200px;
+    }
+    button{
+        border: none;
+        background-color: white;
+        color: red;
+        margin: 10px;
+        padding-top: 30px;
+        padding-left: 270px;
+        font-size: 20px;
+        text-decoration: underline yellow;
+        font-style: italic;
+    }
+    .head2{
+        padding-left: 290px;
+        padding-top:200px ;
+        padding-right: 200px;
+    }
+   .son5{
+    position: relative;
+   }
+   .head3{
+    position: absolute;
+    top: 580px;
+    left: 35%;
+   }
+   .p1{
+    position: absolute;
+     top: 620px;
+   }
+   .son6{
+    position: relative;
+   }
+   .head4{
+    position: absolute;
+    top: 60%;
+    left: 39%;
+   }
+   .p2{
+    position:absolute;
+    top: 65%;
+    left: 5%;
+    padding-left:28%;
+    padding-right: 18%;
+   }
+   .top{
+    color: gray;
+    text-align: center;
+    padding-top: 4%;
+   }
+   .sarath{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+   }
+   .card{
+    width: 300px;
+    height: 400px;
+    margin: 4%;
+    border: 1px solid black;
+    
+    
+   }
+   .photo{
+    width: 100%;
+    height:50%;
+    padding: 40px 0px 0px 45px;
+
+   }
+   .pic{
+    width: 200px;
+    height: 200px;
+    margin: 1%;
+    border-radius:100%;
+    object-fit: cover;
+
+   }
+   .content{
+  
+
+   }
